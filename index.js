@@ -16,6 +16,7 @@ image.addEventListener('mouseleave', e => {
 let background = document.querySelector('body')
 background.style.backgroundImage = "url(https://images.vice.com/vice/images/articles/meta/2016/08/11/why-are-governments-putting-fluoride-in-our-water-sheeple-1470916125.jpg?crop=0.9996581196581197xw%3A1xh%3Bcenter%2Ccenter&resize=650%3A*&output-quality=55)";
 
-let anchor = document.createElement('a')
-anchor.href = "index2.html";
-anchor.
+let link = document.querySelector('a')
+link.textContent = 'Did Egypt have grass at all?';
+link.style.color = 'red';
+link.style.fontSize = '5rem';
